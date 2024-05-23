@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "i7FMDoWTi42WMMp1eFxIXVs6wF7O2TDWgCk4Nps/ZVr3DeWJ7cAWwAoRDsqznYMbz/lTfzkGwIGI6o7GlHDGTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\4iConsultoria.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

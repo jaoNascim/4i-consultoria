@@ -1,0 +1,21 @@
+/* _content/4iConsultoria/Shared/MainLayout.razor.rz.scp.css */
+/* _content/4iConsultoria/Shared/NavMenu.razor.rz.scp.css */
+nav ul[b-t6e8sjdti4] {
+    height: 20px;
+}
+
+nav ul li[b-t6e8sjdti4] {
+    width: auto;
+    z-index: 10;
+}
+
+    nav ul li a[b-t6e8sjdti4] {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        font-size: 15px;
+        padding: 10px;
+        text-decoration: none;
+        color: #F9F6EE;
+    }
+
