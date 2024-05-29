@@ -1,0 +1,10 @@
+@keyframes entry-footer {
+    from {
+        transform: translateY(40%);
+    }
+
+    to {
+        transform: translateY(-10%);
+        border-radius: 2rem;
+    }
+}

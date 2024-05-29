@@ -31,3 +31,5 @@ C:\Users\joaov\source\repos\aaa\4iConsultoria\obj\Debug\net7.0\4iConsultoria.gen
 C:\Users\joaov\source\repos\aaa\4iConsultoria\obj\Debug\net7.0\ref\4iConsultoria.dll
 C:\Users\joaov\source\repos\aaa\4iConsultoria\bin\Debug\net7.0\package-lock.json
 C:\Users\joaov\source\repos\aaa\4iConsultoria\bin\Debug\net7.0\package.json
+C:\Users\joaov\source\repos\aaa\4iConsultoria\obj\Debug\net7.0\4iConsultoria.sourcelink.json
+C:\Users\joaov\source\repos\aaa\4iConsultoria\obj\Debug\net7.0\scopedcss\Shared\Footer.razor.rz.scp.css

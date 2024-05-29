@@ -45,6 +45,18 @@
       "PackagePath": "staticwebassets\\Images\\Feedback-bro.png"
     },
     {
+      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\Logo1.png",
+      "PackagePath": "staticwebassets\\Images\\Logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\LogoB.png",
+      "PackagePath": "staticwebassets\\Images\\LogoB.png"
+    },
+    {
+      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\LogoG.png",
+      "PackagePath": "staticwebassets\\Images\\LogoG.png"
+    },
+    {
       "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\Marketing consulting-pana.png",
       "PackagePath": "staticwebassets\\Images\\Marketing consulting-pana.png"
     },
@@ -63,6 +75,10 @@
     {
       "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\brand loyalty-rafiki.png",
       "PackagePath": "staticwebassets\\Images\\brand loyalty-rafiki.png"
+    },
+    {
+      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\dashboard.png",
+      "PackagePath": "staticwebassets\\Images\\dashboard.png"
     },
     {
       "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\dashboards.png",
@@ -143,6 +159,10 @@
     {
       "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.4iConsultoria.Microsoft.AspNetCore.StaticWebAssets.props",
