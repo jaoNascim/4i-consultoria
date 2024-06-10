@@ -14,15 +14,14 @@ html {
     font-family: 'Satoshi', sans-serif;
 }
 
-
-.know-more {
+.know-more,
+.home,
+.services {
     height: 80px;
-    width: 170px;
-    border: 1px solid #2B4257;
-    transition: 0.3s ease;
+    transition: 0.25s ease;
 
     svg {
-        transition: 0.3s ease;
+        transition: 0.25s ease;
     }
 
     span {
@@ -30,23 +29,47 @@ html {
     }
 }
 
-.know-more:hover {
-    height: 170px;
-    width: 170px;
-    cursor: pointer;
-    border-radius: 100%;
-    border: 1px dashed #2B4257;
+@media only screen and (min-width: 800px) {
+    .know-more:hover {
+        height: 256px;
+        cursor: pointer;
+        border-radius: 100%;
 
-    svg {
-        width: 5rem;
-        height: 5rem;
-        transform: translateX(-50%);
+        svg {
+            width: 6rem;
+            height: 6rem;
+        }
+
+        span {
+            transform: translateX(-10%);
+            opacity: 0;
+        }
     }
 
-    span {
-        transform: translateX(-10%);
-        opacity: 0;
+    .home:hover {
+        height: 256px;
+        cursor: pointer;
+        border-radius: 100%;
+
+        svg {
+            width: 6rem;
+            height: 6rem;
+        }
     }
 
-    
+    .services:hover {
+        height: 256px;
+        cursor: pointer;
+        border-radius: 100%;
+
+        svg {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+}
+
+p {
+    padding: 0;
+    line-height: 1;
 }

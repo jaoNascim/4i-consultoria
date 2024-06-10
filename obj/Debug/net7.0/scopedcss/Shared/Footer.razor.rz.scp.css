@@ -8,3 +8,29 @@
         border-radius: 2rem;
     }
 }
+
+.contact-mail[b-1v2i6ugl22],
+.contact-phone[b-1v2i6ugl22] {
+    height: 80px;
+    transition: 0.25s ease-in-out;
+
+    svg {
+        width: 2rem;
+        height: 2rem;
+        transition: 0.25s ease-in-out;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .contact-mail:hover[b-1v2i6ugl22],
+    .contact-phone:hover[b-1v2i6ugl22] {
+        height: 256px;
+        cursor: pointer;
+        border-radius: 100%;
+
+        svg {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+}

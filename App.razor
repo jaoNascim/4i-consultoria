@@ -6,7 +6,31 @@
     <NotFound>
         <PageTitle>Not found</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
-            <p role="alert">Sorry, there's nothing at this address.</p>
+            <section class="h-svh w-full bg-[#2B4257] p-[2%] grid place-items-center grid-rows-[35%_20%_35%]">
+                <div class="text-[#ebf4f0] text-center flex flex-col justify-end h-full ">
+                    <p class="leading-[0.8] text-[2cqw] tracking-tighter font-zodiak font-normal">
+                        Página não encontrada.
+                    </p>
+                </div>
+                <div class="text-[#ebf4f0] text-center flex flex-col justify-start h-full">
+                    <p class="font-black text-[9cqw] tracking-tighter font-satoshi">
+                        ERRO 404
+                    </p>
+                </div>
+                <div class="h-full p-3 flex items-center">
+                    <a href="/"
+                        class="flex flex-row items-center justify-center font-semibold font-satoshi rounded-full h-20 w-64 bg-[#ebf4f0] text-[#2B4257] sm:mr-2 mb-2 home"
+                        title="Voltar para a página inicial">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
+                            <path
+                                d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                            <path
+                                d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                        </svg>
+                    </a>
+                </div>
+
+            </section>
         </LayoutView>
     </NotFound>
 </Router>

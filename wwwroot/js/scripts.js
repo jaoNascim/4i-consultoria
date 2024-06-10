@@ -1,29 +1,22 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const slider = document.querySelector('.slider');
-  const sections = gsap.utils.toArray(".slider section");
-
-  let tl = gsap.timeline({
-      defaults: {
-          ease: "none"
-      },
-      scrollTrigger: {
-          trigger: slider,
-          pin: true,
-          scrub: 2,
-          end: () => "+=" + slider.offsetWidth
-      }
-  });
-
-  tl.to(slider, {
-      xPercent: -66
-  });
-
-  const lenis = new Lenis()
-
-  function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
+window.clipboardCopy = {
+  copyEmail: function (text) {
+    navigator.clipboard.writeText(text).then(function () {
+      console.log('Email copiado para o clipboard.');
+    })
+      .catch(function (error) {
+        console.error('Erro: ', error);
+      });
+  },
+  copyPhone: function (text) {
+    navigator.clipboard.writeText(text).then(function () {
+      console.log('Telefone copiado para o clipboard.');
+    })
+      .catch(function (error) {
+        console.error('Erro: ', error);
+      });
   }
+};
 
-  requestAnimationFrame(raf)
-});
+function scrollToTop() {
+  window.scrollTo(0, 0);
+}

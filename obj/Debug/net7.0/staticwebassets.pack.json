@@ -1,167 +1,175 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\4iConsultoria.bundle.scp.css",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\4iConsultoria.bundle.scp.css",
       "PackagePath": "staticwebassets\\4iConsultoria.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Fonts\\Chillax-Variable.ttf",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Fonts\\Chillax-Variable.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Chillax-Variable.ttf"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Fonts\\GeneralSans-Variable.ttf",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Fonts\\GeneralSans-Variable.ttf",
       "PackagePath": "staticwebassets\\Fonts\\GeneralSans-Variable.ttf"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Fonts\\Melodrama-Variable.ttf",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Fonts\\Melodrama-Variable.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Melodrama-Variable.ttf"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Fonts\\Nunito-Variable.ttf",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Fonts\\Nunito-Variable.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Nunito-Variable.ttf"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Fonts\\Poppins-Variable.ttf",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Fonts\\Poppins-Variable.ttf",
       "PackagePath": "staticwebassets\\Fonts\\Poppins-Variable.ttf"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\2ab694a5-357043a6.gif",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\2ab694a5-357043a6.gif",
       "PackagePath": "staticwebassets\\Images\\2ab694a5-357043a6.gif"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\BlueBG.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\BlueBG.png",
       "PackagePath": "staticwebassets\\Images\\BlueBG.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\Dark analytics-bro.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\Dark analytics-bro.png",
       "PackagePath": "staticwebassets\\Images\\Dark analytics-bro.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\Desktop - 3.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\Desktop - 3.png",
       "PackagePath": "staticwebassets\\Images\\Desktop - 3.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\Feedback-bro.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\Feedback-bro.png",
       "PackagePath": "staticwebassets\\Images\\Feedback-bro.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\Logo1.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\Logo1.png",
       "PackagePath": "staticwebassets\\Images\\Logo1.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\LogoB.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\LogoB.png",
       "PackagePath": "staticwebassets\\Images\\LogoB.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\LogoG.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\LogoG.png",
       "PackagePath": "staticwebassets\\Images\\LogoG.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\Marketing consulting-pana.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\Marketing consulting-pana.png",
       "PackagePath": "staticwebassets\\Images\\Marketing consulting-pana.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\Rectangle.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\Rectangle.png",
       "PackagePath": "staticwebassets\\Images\\Rectangle.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\apple.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\Star 1.png",
+      "PackagePath": "staticwebassets\\Images\\Star 1.png"
+    },
+    {
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\apple.png",
       "PackagePath": "staticwebassets\\Images\\apple.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\background2.jpg",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\background2.jpg",
       "PackagePath": "staticwebassets\\Images\\background2.jpg"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\brand loyalty-rafiki.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\brand loyalty-rafiki.png",
       "PackagePath": "staticwebassets\\Images\\brand loyalty-rafiki.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\dashboard.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\dashboard.png",
       "PackagePath": "staticwebassets\\Images\\dashboard.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\dashboards.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\dashboards.png",
       "PackagePath": "staticwebassets\\Images\\dashboards.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\dollar.cur",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\dollar.cur",
       "PackagePath": "staticwebassets\\Images\\dollar.cur"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\dollar.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\dollar.png",
       "PackagePath": "staticwebassets\\Images\\dollar.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\giphy (1).gif",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\giphy (1).gif",
       "PackagePath": "staticwebassets\\Images\\giphy (1).gif"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\giphy.gif",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\giphy.gif",
       "PackagePath": "staticwebassets\\Images\\giphy.gif"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\Images\\notebook.png",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\Images\\notebook.png",
       "PackagePath": "staticwebassets\\Images\\notebook.png"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\app.min.css",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\app.min.cs",
+      "PackagePath": "staticwebassets\\css\\app.min.cs"
+    },
+    {
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\app.min.css",
       "PackagePath": "staticwebassets\\css\\app.min.css"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\wwwroot\\js\\scripts.js",
+      "Id": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\wwwroot\\js\\scripts.js",
       "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {

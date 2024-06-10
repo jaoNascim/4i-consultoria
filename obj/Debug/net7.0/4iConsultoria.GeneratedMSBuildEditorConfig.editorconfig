@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _4iConsultoria
 build_property.RootNamespace = _4iConsultoria
-build_property.ProjectDir = C:\Users\joaov\source\repos\aaa\4iConsultoria\
+build_property.ProjectDir = C:\Users\joaov\source\repos\4iConsultoria\4iConsultoria\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\joaov\source\repos\aaa\4iConsultoria
+build_property.MSBuildProjectDirectory = C:\Users\joaov\source\repos\4iConsultoria\4iConsultoria
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/App.razor]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Pages/Index.razor]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Shared/SurveyPrompt.razor]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Pages/Services.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/_Imports.razor]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Shared/Footer.razor]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-1v2i6ugl22
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Shared/MainLayout.razor]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kzmbymkd7h
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Shared/NavMenu.razor]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-t6e8sjdti4
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Pages/Error.cshtml]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/joaov/source/repos/aaa/4iConsultoria/Pages/_Host.cshtml]
+[C:/Users/joaov/source/repos/4iConsultoria/4iConsultoria/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
