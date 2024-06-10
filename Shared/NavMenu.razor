@@ -1,30 +1,84 @@
 ﻿@page "/NavMenu"
 
-<header class="font-general text-[#F9F6EE] grid place-items-center top-0 px-44 w-full h-auto fixed z-20">
-    <div class="row w-full p-0 z-10">
-        <div class="col-4 font-melodrama flex justify-start items-center text-3xl p-0">
-            4I Consultoria
+<header class="grid grid-rows-[40px_auto] font-satoshi top-0 py-[1%] sm:px-[2%] px-[3%] w-full fixed z-20">
+    <div class="grid md:grid-cols-[69.5%_20%_10%] sm:grid-cols-[61%_24%_14%] grid-cols-[87%_12%] w-full justify-between">
+        <div
+            class="w-full h-10 flex items-center justify-between sm:text-[1.5cqw] text-[4cqw] font-bold leading-none sm:px-4 px-3 bg-[#ebf4f0] rounded-full">
+            <a href="/">
+                <span class="p-0 font-zodiak text-[#2B4257]">
+                    4i Consultoria.
+                </span>
+            </a>
+            <span class="lg:text-[1cqw] sm:text-[1.5cqw] text-[2.5cqw] font-medium p-0 text-[#2B4257]">TRANSFORME SEU
+                FUTURO.</span>
+            @* <img src="../Images/LogoG.png" alt="" class="w-auto h-6 blur-none"> *@
         </div>
-        <div class="col-4 grid place-items-center z-20 h-14 rounded-full p-0">
-            <nav class="w-3/4">
-                <ul class=" flex items-center justify-between font-[400]">
-                    <li><a href="/" class="">Início</a></li>
-                    <li><a href="#" class="">Sobre</a></li>
-                    <li><a href="#" class="">Serviços</a></li>
-                    <li><a href="#" class="">Contato</a></li>
-                </ul>
-            </nav>
+        <nav class="w-full h-full sm:grid hidden place-items-center bg-[#ebf4f0] sm:px-4 px-3 rounded-full">
+            <ul class="flex items-center justify-between h-full w-full">
+                <li><a href="/sobre"
+                        class="p-0 lg:text-[1cqw] sm:text-[1.5cqw] font-medium text-[#2B4257] flex items-center">SOBRE.</a>
+                </li>
+                <li><a href="/servicos"
+                        class="p-0 lg:text-[1cqw] sm:text-[1.5cqw] font-medium text-[#2B4257] flex items-center">SERVIÇOS.</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="w-full h-full sm:grid hidden place-items-center bg-[#2B4257] rounded-full">
+            <a href="/contato" class="p-0 lg:text-[1cqw] sm:text-[1.5cqw] font-medium text-[#ebf4f0]">CONTATO.</a>
         </div>
-        <div class="col-4 flex justify-end items-center p-0">
-            <div class="flex rounded-fullw-auto">
-                <div class="w-14 h-14 rounded-full grid place-items-center mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
-                    </svg>
-                </div>
-            </div>
+        @* <div class="w-full h-full sm:grid hidden place-items-center bg-[#ebf4f0] text-[#2B4257] p-0 rounded-r-full">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+        stroke="currentColor" class="w-6 h-6 p-0 ">
+        <path stroke-linecap="round" stroke-linejoin="round"
+        d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485
+        3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843
+        4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0
+        .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1
+        3 12c0-1.605.42-3.113 1.157-4.418" />
+        </svg>
+        </div> *@
+        <div class="w-full h-full sm:hidden grid place-items-center bg-[#ebf4f0] text-[#2B4257] rounded-full navbar-toggler"
+            @onclick="ToggleNavMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="sm:size-7 size-5 navbar-toggler-icon">
+                <path fill-rule="evenodd"
+                    d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+                    clip-rule="evenodd" />
+            </svg>
         </div>
     </div>
+
+    <div class="h-full py-2 sm:hidden @(collapseNavMenu == true ? "block" : "hidden")">
+        <ul class="nav flex-col h-full bg-[#ebf4f0] rounded-3xl p-2">
+            <li class="nav-item">
+                <NavLink href="/sobre" class="nav-link grid items-center text-[3cqw] font-medium text-[#2B4257] p-3"
+                    Match="NavLinkMatch.All">
+                    <p aria-hidden="true">SOBRE.</p>
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink href="/servicos" class="nav-link grid items-center text-[3cqw] font-medium text-[#2B4257] p-3"
+                    Match="NavLinkMatch.All">
+                    <p aria-hidden="true">SERVIÇOS.</p>
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink href="/contato" class="nav-link grid items-center text-[3cqw] font-medium text-[#2B4257] p-3"
+                    Match="NavLinkMatch.All">
+                    <p aria-hidden="true">CONTATO.</p>
+                </NavLink>
+            </li>
+        </ul>
+    </div>
 </header>
+
+@code {
+    private bool collapseNavMenu = false;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

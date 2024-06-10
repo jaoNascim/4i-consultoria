@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\4iConsultoria.csproj",
+      "projectUniqueName": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\4iConsultoria.csproj",
       "projectName": "4iConsultoria",
-      "projectPath": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\4iConsultoria.csproj",
+      "projectPath": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\4iConsultoria.csproj",
       "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaov\\source\\repos\\aaa\\4iConsultoria\\obj\\",
+      "outputPath": "C:\\Users\\joaov\\source\\repos\\4iConsultoria\\4iConsultoria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

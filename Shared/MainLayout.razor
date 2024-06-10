@@ -1,4 +1,5 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
 
 <PageTitle>4iConsultoria</PageTitle>
 
@@ -7,3 +8,17 @@
 <div class="page">
     @Body
 </div>
+
+@if (!IsUrlContainingText("contato"))
+{
+    <Footer />
+}
+
+@code {
+    public bool IsUrlContainingText(string text)
+    {
+        var currentUrl = Navigation.Uri;
+
+        return currentUrl.Contains(text, StringComparison.OrdinalIgnoreCase);
+    }
+}

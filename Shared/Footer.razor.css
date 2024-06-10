@@ -1,0 +1,36 @@
+@keyframes entry-footer {
+    from {
+        transform: translateY(40%);
+    }
+
+    to {
+        transform: translateY(-10%);
+        border-radius: 2rem;
+    }
+}
+
+.contact-mail,
+.contact-phone {
+    height: 80px;
+    transition: 0.25s ease-in-out;
+
+    svg {
+        width: 2rem;
+        height: 2rem;
+        transition: 0.25s ease-in-out;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .contact-mail:hover,
+    .contact-phone:hover {
+        height: 256px;
+        cursor: pointer;
+        border-radius: 100%;
+
+        svg {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+}

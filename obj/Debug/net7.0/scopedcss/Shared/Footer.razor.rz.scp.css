@@ -1,4 +1,3 @@
-/* _content/4iConsultoria/Shared/Footer.razor.rz.scp.css */
 @keyframes entry-footer-b-1v2i6ugl22 {
     from {
         transform: translateY(40%);
@@ -34,16 +33,4 @@
             height: 6rem;
         }
     }
-}
-/* _content/4iConsultoria/Shared/MainLayout.razor.rz.scp.css */
-html[b-kzmbymkd7h] {
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    word-wrap: normal !important;
-}
-/* _content/4iConsultoria/Shared/NavMenu.razor.rz.scp.css */
-.nav-item a.active[b-t6e8sjdti4]::after {
-    content: " \*";
-    margin-left: 1em;
-    background-color: red;
 }

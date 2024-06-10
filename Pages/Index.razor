@@ -1,253 +1,213 @@
 ﻿@page "/"
 @inherits NavMenu
+@inject IJSRuntime JSRuntime
 
-@* <div class="w-full h-svh bg-01 bg-center bg-cover bg-no-repeat fixed animate-expand z-0"></div> *@
-
-<div class="h-[200svh] w-full absolute bg-[url('../Images/2ab694a5-357043a6.gif')] bg-cover bg-no-repeat bg-center"></div>
-
-<div
-    class="font-general flex flex-col items-center justify-center h-[95svh] w-full bg-[#F9F6EE] text-[#F9F6EE] px-44 py-4 z-10">
-    <div class="flex flex-col justify-end items-end w-full h-full z-10">
-        <div class="row w-full flex justify-between pb-4 z-10">
-            <div class="col-12 leading-none font-[700] text-[6.8svw] p-0 z-10" >
-                TRANSFORME SEU <p class="p-0">NEGÓCIO CONOSCO HOJE.</p>
-            </div>
+<section
+    class="2xl:h-[90svh] xl:h-[80svh] lg:h-[70svh] md:h-[50svh] sm:h-[40svh] h-[30svh] w-full text-black flex items-end py-[2%] sm:px-[2%] px-[3%] font-satoshi ">
+    <div class="w-full grid grid-rows-1 md:grid-cols-[10%_90%] grid-cols-1">
+        <div class="font-semibold leading-none hidden md:flex flex-col justify-end py-3 sm:text-[1cqw]">
+            <p>EXPERIÊNCIA</p>
+            <p>EM VENDAS</p>
+            <p>E TECNOLOGIA</p>
         </div>
-        <div class="row w-full flex justify-between h-1/5 ">
-            <a href=""
-                class="col-4 flex flex-col justify-between p-2 border-2 border-[#F9F6EE] border-solid no-underline text-[#F9F6EE]">
-                <div class="row flex justify-end w-auto p-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 p-0">
-                        <path fill-rule="evenodd"
-                            d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </div>
-                <div class="row flex items-end leading-none font-[500]">
-                    Mudar seu futuro
-                </div>
-            </a>
-            <div class="col-4 leading-none font-[300] text-lg px-1">
-                Uma consultoria focada em fazer você ganhar dinheiro, através de soluções inovadores, tecnológicas,
-                modernas e criativas.
-            </div>
-
+        <div class="font-black leading-none text-right justify-end md:text-[12cqw] text-[12.7cqw] tracking-tighter ">
+            <p>TRANSFORME</p>
+            <p>SEU FUTURO</p>
         </div>
-        @* <div class="row justify-between h-[10%] w-full text-lg font-normal ">
-        <div class="col-1 w-auto p-0">inteligência</div>
-        <div class="col-1 w-auto p-0">modernidade</div>
-        <div class="col-1 w-auto p-0">tecnologia</div>
-        </div> *@
     </div>
-</div>
-@* <div
-class="font-poppins flex flex-col items-start justify-center w-full h-[90svh] bg-white dark:bg-black z-10
-overflow-hidden">
-<div class="flex items-end whitespace-nowrap h-[70svh] w-full">
-<div class="inline-block animate-slide-left">
-<div class="text-[200px] font-[600]">
-Transforme seu negócio hoje.
-</div>
-</div>
-<div class="inline-block animate-slide-left ml-4">
-<div class="text-[200px] font-[600]">
-Transforme seu negócio hoje.
-</div>
-</div>
-</div>
+</section>
 
-<div class="row flex items-start justify-between px-5 h-[10svh] w-full text-lg font-normal ">
-<div class="col-1">inteligência</div>
-<div class="col-1">modernidade</div>
-<div class="col-1">tecnologia</div>
-</div>
-<div class="row grid place-items-start h-[10svh] w-full px-5 z-10">
-<div class="w-5 h-5 hover:w-9">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-<path fill-rule="evenodd"
-d="M12 2.25a.75.75 0 0 1 .75.75v16.19l6.22-6.22a.75.75 0 1 1 1.06 1.06l-7.5 7.5a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 1
-1 1.06-1.06l6.22 6.22V3a.75.75 0 0 1 .75-.75Z"
-clip-rule="evenodd" />
-</svg>
-</div>
-</div>
-</div> *@
+<section
+    class="w-full 2xl:h-[100svh] xl:h-[90svh] lg:h-[80svh] md:h-[70svh] sm:h-[50svh] h-[40svh] text-[#2B4257] flex justify-center pb-[2%]">
+    <div class="row w-full h-full bg-[url('../Images/background2.jpg')] bg-cover bg-no-repeat bg-center">
+    </div>
+</section>
 
-<div class="h-[300svh] w-full font-general bg-[#F9F6EE] text-white grid place-items-center z-20">
-    <div class="h-full bg-custom-gray about z-10">
-        <div class="row flex justify-center items-start w-auto h-auto p-2">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 p-0">
-                <path fill-rule="evenodd"
-                    d="M12 2.25a.75.75 0 0 1 .75.75v16.19l6.22-6.22a.75.75 0 1 1 1.06 1.06l-7.5 7.5a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 1 1 1.06-1.06l6.22 6.22V3a.75.75 0 0 1 .75-.75Z"
-                    clip-rule="evenodd" />
+<section
+    class="sm:px-[2%] px-[3%] md:pt-24 pt-16 font-satoshi grid 2xl:grid-rows-[auto_40svh] md:grid-rows-[auto_40svh] grid-rows-[auto_30svh] justify-start items-center text-black about">
+    <p class="tracking-tighter font-semibold leading-none lg:text-[4.3cqw] md:text-[5.3cqw] text-[6.3cqw] text-center">
+        <span>
+            Somos uma
+            empresa independente de consultoria localizada em Campinas-SP focada em transformar Pequenas e Médias
+            empresas
+            (PMEs) dos setores de serviços e indústrias.
+        </span>
+    </p>
+    <div class="h-full flex items-center justify-center">
+        <a href="/sobre"
+            class="flex flex-row justify-center items-center font-semibold rounded-full know-more bg-[#2B4257] text-white w-64"
+            title="Saiba mais">
+            @* <span class="lg:text-[1cqw] md:text-[1.5cqw] sm:text-[2cqw] text-[3.5cqw]">SAIBA MAIS</span> *@
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
             </svg>
-        </div>
-        <div class="col-12 flex flex-col justify-center items-center px-44 h-[90%]">
-            <div class="row font-[700] text-[6.8svw] leading-none p-0">
-                CONHEÇA UM POUCO SOBRE NÓS
-            </div>
-            <br />
-            <div class="row flex justify-between text-lg">
-                <div class="col-2 font-[600] p-0">
-                    (Proposta)
-                </div>
-                <div class="col-6 p-0 font-[300] text-lg">
-                    Somos uma pequena empresa de consultoria localizada em Campinas-SP focada em transformar PMEs dos
-                    setores de serviços e indústrias.
-                </div>
-            </div>
-            <br />
-            <div class="row flex justify-between text-lg">
-                <div class="col-2 font-[600] p-0">
 
-                </div>
-                <div class="col-6 p-0 font-[300] text-lg">
-                    Nosso foco é otimizar processos, aumentar a eficiência e criar vantagens competitivas,
-                    proporcionando insights baseados em dados para decisões assertivas.
-                </div>
-            </div>
+        </a>
+    </div>
+</section>
+
+<section class="w-full md:h-[25svh] h-[15svh] text-black">
+    <div
+        class="grid md:grid-cols-[20%_60%_20%] grid-cols-[40%_60%] items-start w-full 2xl:pb-10 sm:px-[2%] px-[3%] font-satoshi">
+        <h1 class="2xl:text-[1cqw] md:text-[1.5cqw]  text-[3cqw] font-semibold leading-none  ">
+            <p class="p-0 opacity-70">Nossos serviços</p>
+        </h1>
+        <h1 class="xl:text-[5cqw] text-[6cqw] leading-none tracking-tighter font-black">
+            <p class="p-0">TRABALHANDO</p>
+            <p class="p-0">SEMPRE</p>
+            <p class="p-0">COM INTELIGÊNCIA</p>
+        </h1>
+        <div
+            class="md:grid hidden grid-rows-[auto-auto] h-full xl:text-[1cqw] md:text-[1.5cqw] text-[2.5cqw] font-normal leading-none">
+            <p class="p-0">Os serviços da <span class="font-zodiak font-bold text-[#2B4257]">4i.</span> funcionam a
+                partir da ideia de 4
+                inteligências, facilitando seu entendimento do processo e assim, o melhorando.</p>
+            @* <a href="/servicos" class="grid place-items-end bg-red-500">Ver mais</a> *@
         </div>
     </div>
-</div>
+</section>
 
-<div class="h-[480svh] w-full font-general text-black font-[600] bg-[#2B4257] z-20">
-    <div class="h-full services bg-white py-3 px-44 z-20">
-        <div class="row flex justify-center h-[40svh] text-[65px] font-[600] z-20">
-            Nossos serviços
-        </div>
-        <div class="row flex flex-row items-center justify-center z-20">
-            <div class="col-3 z-10">
-                01.
-            </div>
-            <div class="col-6 grid place-items-center bg-[#F9F6EE] rounded-2xl p-0 service-img z-20">
-                <img src="../Images/Dark analytics-bro.png" class="w-full" />
-            </div>
-            <div class="col-3 flex justify-end z-20">
-                dashboards
-            </div>
-        </div>
-        <br />
-        <div class="row flex flex-row items-center justify-center">
-            <div class="col-3">
-                02.
-            </div>
-            <div class="col-6 grid place-items-center bg-[#F9F6EE] rounded-2xl p-0 service-img">
-                <img src="../Images/Feedback-bro.png" class="w-full" />
-            </div>
-            <div class="col-3 flex justify-end">
-                feedback
+<section class="md:hidden w-full h-[15svh] text-black flex items-center">
+    <div class="items-center w-full h-auto lg:py-4 sm:px-[2%] px-[3%] font-satoshi">
+        <p class="2xl:text-[1cqw] text-[3.5cqw] font-normal leading-none tracking-tighter">
+            Os serviços da <span class="font-zodiak font-bold text-[#2B4257]">4i.</span> funcionam a
+            partir da ideia de 4
+            inteligências, facilitando seu entendimento do processo e assim, o melhorando.
+        </p>
+    </div>
+</section>
+
+<section
+    class="lg:h-svh sm:h-[50svh] h-[40svh] w-full 2xl:pt-[4.5%] xl:pt-[5%] lg:pt-[5.5%] sm:p-[2%] p-[3%] font-satoshi text-black lg:sticky lg:top-0">
+    <div
+        class="grid grid-rows-2 border-black/40 border-[1px] border-dashed hover:border-[#2B4257] hover:border-solid bg-white p-3 h-full ">
+        <div class="grid grid-cols-2 items-start 2xl:text-[1cqw] md:text-[2cqw] text-[3cqw] font-semibold">
+            <p class="font-zodiak">01. Antecipe, adapte e domine.</p>
+            <div class="flex justify-end">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-0">
+                    <path fill-rule="evenodd"
+                        d="M5.166 2.621v.858c-1.035.148-2.059.33-3.071.543a.75.75 0 0 0-.584.859 6.753 6.753 0 0 0 6.138 5.6 6.73 6.73 0 0 0 2.743 1.346A6.707 6.707 0 0 1 9.279 15H8.54c-1.036 0-1.875.84-1.875 1.875V19.5h-.75a2.25 2.25 0 0 0-2.25 2.25c0 .414.336.75.75.75h15a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-2.25-2.25h-.75v-2.625c0-1.036-.84-1.875-1.875-1.875h-.739a6.706 6.706 0 0 1-1.112-3.173 6.73 6.73 0 0 0 2.743-1.347 6.753 6.753 0 0 0 6.139-5.6.75.75 0 0 0-.585-.858 47.077 47.077 0 0 0-3.07-.543V2.62a.75.75 0 0 0-.658-.744 49.22 49.22 0 0 0-6.093-.377c-2.063 0-4.096.128-6.093.377a.75.75 0 0 0-.657.744Zm0 2.629c0 1.196.312 2.32.857 3.294A5.266 5.266 0 0 1 3.16 5.337a45.6 45.6 0 0 1 2.006-.343v.256Zm13.5 0v-.256c.674.1 1.343.214 2.006.343a5.265 5.265 0 0 1-2.863 3.207 6.72 6.72 0 0 0 .857-3.294Z"
+                        clip-rule="evenodd" />
+                </svg>
             </div>
         </div>
-        <br />
-        <div class="row flex flex-row items-center justify-center">
-            <div class="col-3">
-                03.
-            </div>
-            <div class="col-6 grid place-items-center bg-[#F9F6EE] rounded-2xl p-0 service-img">
-                <img src="../Images/Marketing consulting-pana.png" class="w-full" />
-            </div>
-            <div class="col-3 flex justify-end">
-                consultoria
-            </div>
-        </div>
-        <br />
-        <div class="row flex flex-row items-center justify-center">
-            <div class="col-3">
-                04.
-            </div>
-            <div class="col-6 grid place-items-center bg-[#F9F6EE] rounded-2xl p-0 service-img">
-                <img src="../Images/brand loyalty-rafiki.png" class="w-full" />
-            </div>
-            <div class="col-3 flex justify-end">
-                fidelidade
-            </div>
+        <div class="grid md:grid-cols-[25%_75%] grid-cols-[40%_60%] items-end">
+            <ul class="2xl:text-[1.5cqw] md:text-[2cqw] text-[3cqw] font-semibold tracking-tight">
+                <li class="">• Análise de Mercado</li>
+                <li class="">• Tendências do setor</li>
+                <li class="">• Modelo Fast Track</li>
+            </ul>
+            <p class="2xL:text-[5cqw] text-[8cqw] font-black tracking-tighter leading-none flex items-end justify-end">
+                COMPETITIVA
+            </p>
         </div>
     </div>
-</div>
+</section>
 
-@* <div class="h-[180svh] w-full font-general text-black bg-[#2B4257] z-10">
-<div class="services h-full bg-white p-5">
-<div class="row h-[30svh] text-[65px] font-[600]">
-Nossos serviços
-</div>
-<div class="row flex flex-row justify-center h-[80svh] z-10">
-<div class="col-8 grid place-items-start z-9">
-<img class="absolute w-2/4" src="@imagemSelecionada" />
-</div>
-<div class="col-4 flex items-end text-[20px] p-[20px] z-10">
-@textoSelecionado
-</div>
-</div>
+<section
+    class="lg:h-svh sm:h-[50svh] h-[40svh] w-full 2xl:pt-[4.5%] xl:pt-[5%] lg:pt-[5.5%] lg:pb-[2%] lg:px-[2%] sm:px-[2%] sm:pb-[1%] px-[3%] pb-[1.5%] font-satoshi text-black lg:sticky lg:top-0">
+    <div
+        class="grid grid-rows-2 border-black/40 border-[1px] border-dashed hover:border-black hover:border-solid bg-white p-3 h-full">
+        <div class="grid grid-cols-2 items-start 2xl:text-[1cqw] md:text-[2cqw] text-[3cqw] font-semibold">
+            <p class="font-zodiak">02. Conquiste, converta e celebre.</p>
+            <div class="flex justify-end">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-0">
+                    <path
+                        d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 0 1-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004ZM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 0 1-.921.42Z" />
+                    <path fill-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v.816a3.836 3.836 0 0 0-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 0 1-.921-.421l-.879-.66a.75.75 0 0 0-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 0 0 1.5 0v-.81a4.124 4.124 0 0 0 1.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 0 0-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 0 0 .933-1.175l-.415-.33a3.836 3.836 0 0 0-1.719-.755V6Z"
+                        clip-rule="evenodd" />
+                </svg>
 
-<div>
-<ul style="list-style-type:none;"
-class="flex justify-between h-[30svh] w-full p-[10px] text-[18px] text-white/[.06] rounded-[0.6rem] z-10">
-@foreach (var item in listaItens)
-{
-var index = listaItens.IndexOf(item) + 1;
-<li class="menu-item z-10"
-style="@(item == itemSelecionado ? "color: rgba(255, 255, 255, 1); width: 54%; font-size: 25px; background-color:
-rgba(25, 24, 21, 1); border-radius: 0.6rem;" : "color: rgba(255, 255, 255, 0.6); width: 15%; font-size: 18px;
-background-color: rgba(25, 24, 21, 0.7);")">
-<button class="cursor-pointer w-full h-full flex justify-end items-end p-[20px] z-10"
-@onclick="() => SelecionarItem(item)">
-<b class="h-full w-6/12 flex items-start justify-start leading-[160px] z-10"
-style="@(item == itemSelecionado ? "display: flex; justify-content: start; align-items: end; font-size: 160px;" :
-"display: none;")">@index.ToString("D2").</b>
-<p class="h-full w-full flex justify-end items-end z-10">@item</p>
-</button>
-</li>
+            </div>
+        </div>
+        <div class="grid md:grid-cols-[25%_75%] grid-cols-[40%_60%] items-end">
+            <ul class="2xl:text-[1.5cqw] md:text-[2cqw] text-[3cqw] font-semibold tracking-tight">
+                <li class="">• CRM</li>
+                <li class="">• Treinamento Comercial</li>
+                <li class="">• Planejamento SWOT</li>
+            </ul>
+            <p class="2xL:text-[5cqw] text-[8cqw] font-black tracking-tighter leading-none flex items-end justify-end">
+                FATURAÇÃO
+            </p>
+        </div>
+    </div>
+</section>
+
+<section
+    class="lg:h-svh sm:h-[50svh] h-[40svh] w-full 2xl:pt-[4.5%] xl:pt-[5%] lg:pt-[5.5%] lg:pb-[2%] lg:px-[2%] sm:px-[2%] sm:pt-[1%] px-[3%] pt-[1.5%] font-satoshi text-black lg:sticky lg:top-0">
+    <div
+        class="grid grid-rows-2 border-black/40 border-[1px] border-dashed hover:border-black hover:border-solid bg-white p-3 h-full">
+        <div class="grid grid-cols-2 items-start 2xl:text-[1cqw] md:text-[2cqw] text-[3cqw] font-semibold">
+            <p class="font-zodiak">03. Descubra o insisível e alcance o incrível.</p>
+            <div class="flex justify-end">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-0">
+                    <path fill-rule="evenodd"
+                        d="M7.5 5.25a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0 1 12 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 0 1 7.5 5.455V5.25Zm7.5 0v.09a49.488 49.488 0 0 0-6 0v-.09a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5Zm-3 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+                        clip-rule="evenodd" />
+                    <path
+                        d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z" />
+                </svg>
+            </div>
+        </div>
+        <div class="grid md:grid-cols-[25%_75%] grid-cols-[40%_60%] items-end">
+            <ul class="2xl:text-[1.5cqw] md:text-[2cqw] text-[3cqw] font-semibold tracking-tight">
+                <li class="">• Indicadores e relatórios</li>
+                <li class="">• Deciões baseadas em dados</li>
+            </ul>
+            <p class="2xL:text-[5cqw] text-[8cqw] font-black tracking-tighter leading-none flex items-end justify-end">
+                NEGÓCIOS
+            </p>
+        </div>
+    </div>
+</section>
+
+<section
+    class="w-full 2xl:pt-[4.5%] xl:pt-[5%] lg:pt-[5.5%] lg:pb-[2%] lg:px-[2%] sm:p-[2%] p-[3%] font-satoshi text-black lg:sticky lg:top-0 grid lg:grid-rows-[100svh_40svh] sm:grid-rows-[50svh_20svh] grid-rows-[40svh_20svh]">
+    <div
+        class="grid grid-rows-2 border-black/40 border-[1px] border-dashed hover:border-black hover:border-solid bg-white p-3 h-full">
+        <div class="grid grid-cols-2 items-start 2xl:text-[1cqw] md:text-[2cqw] text-[3cqw] font-semibold">
+            <p class="font-zodiak">04. Inovar, motivar e inspirar.</p>
+            <div class="flex justify-end">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 p-0">
+                    <path fill-rule="evenodd"
+                        d="M2.25 5.25a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3V15a3 3 0 0 1-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 0 1-.53 1.28h-9a.75.75 0 0 1-.53-1.28l.621-.622a2.25 2.25 0 0 0 .659-1.59V18h-3a3 3 0 0 1-3-3V5.25Zm1.5 0v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+        </div>
+        <div class="grid md:grid-cols-[25%_75%] grid-cols-[40%_60%] items-end">
+            <ul class="2xl:text-[1.5cqw] md:text-[2cqw] text-[3cqw] font-semibold tracking-tight">
+                <li class="">• Automação</li>
+                <li class="">• Cálculos ideias</li>
+                <li class="">• Chatbot especializado</li>
+            </ul>
+            <p class="2xL:text-[5cqw] text-[8cqw] font-black tracking-tighter leading-none flex items-end justify-end">
+                TECNOLOGIA
+            </p>
+        </div>
+    </div>
+
+    <div class="h-full flex items-center justify-center lg:sticky lg:top-0 bg-white">
+        <a href="/servicos"
+            class="flex flex-row justify-center items-center font-semibold rounded-full services bg-[#2B4257] text-white w-64"
+            title="Ver mais serviços">
+            @* <span class="lg:text-[1cqw] md:text-[1.5cqw] sm:text-[2cqw] text-[3.5cqw]">VER MAIS</span> *@
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-8 ml-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+        </a>
+    </div>
+</section>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("scrollToTop");
+        }
+    }
 }
-</ul>
-</div>
-</div>
-</div> *@
-
-<div class="h-[60svh] w-full bg-[#2B4257] text-white font-general px-44 z-10">
-    <div class="h-[90%] row grid place-items-end z-10">
-        <div class="col-12 p-0 z-10">
-            <div class="row z-10">
-                <div class="row flex justify-end ">(Telefone)</div>
-                <div class="row flex justify-end font-[600]">+19 9 1234567</div>
-            </div>
-            <br />
-            <div class="row">
-                <div class="row flex justify-end">(Email)</div>
-                <div class="row flex justify-end font-[600]">4iconsultoria@gmail.com</div>
-            </div>
-        </div>
-    </div>
-    <div class="h-[10%] font-general flex items-end z-10">
-        <div class="col-6 text-xl font-[600] z-10">
-            © @date @time
-        </div>
-        <div class="col-6 flex justify-end items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                class="bi bi-linkedin mr-2" viewBox="0 0 16 16">
-                <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-            </svg>
-
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram"
-                viewBox="0 0 16 16">
-                <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-            </svg>
-        </div>
-    </div>
-</div>
-
-<div class="font-general overflow-hidden bg-[#2B4257] text-white">
-    <div class="flex items-end bottom-0 whitespace-nowrap w-full p-0">
-        <div class="inline-block animate-slide-left">
-            <div class="text-[200px] leading-none font-[700]">
-                Vamos conversar!
-            </div>
-        </div>
-        <div class="inline-block animate-slide-left ml-4">
-            <div class="text-[200px] leading-none font-[700]">
-                Vamos conversar!
-            </div>
-        </div>
-    </div>
-</div>
